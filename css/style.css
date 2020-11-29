@@ -10,7 +10,7 @@ body {
   margin: auto;
 }
 
-/*********** HEADER **************/
+/*********** HEADER ***********/
 
 header {
   background: #ffffff;
@@ -76,6 +76,16 @@ div.sign-up {
   position: relative;
 }
 
+.button_1 {
+  color:#ffffff;
+  background-color: #8a2be2;
+  border:0;
+  padding-left: 10px;
+  padding-right: 10gipx;
+  height: 20px;
+  width: 90px;
+}
+
 div.sign-up::after {
   content: "";
   background-image: url("../img/iStock_81219573_1200px.jpg");
@@ -96,8 +106,9 @@ div.sign-up button {
   color: #ffffff;
   background-color: #8a2be2;
   border: 0;
-  padding-left: 10px;
+   padding-left: 10px;
   padding-right: 10px;
+  
 }
 
 div.sign-up input {
@@ -118,6 +129,7 @@ div.sign-up input {
 .container {
   display: flex;
   flex-direction: row;
+  
 }
 
 .coding {
@@ -143,14 +155,20 @@ div.sign-up input {
 
 /*footer*/
 
-.facebook-logo {
-  float: right;
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: white;
 }
 
-.Google-logo {
-  float: right;
+
+.containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  
 }
 
-.icons {
-  float: right;
-}
