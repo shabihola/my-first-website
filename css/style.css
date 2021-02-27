@@ -1,4 +1,4 @@
-body {
+/* body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
@@ -15,6 +15,9 @@ body {
 header {
   background: #ffffff;
   min-height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
 }
 
 header .topnav {
@@ -38,10 +41,10 @@ header #branding {
 header .logo {
   display: flex;
   flex-direction: row;
-  font-size: 24px;
   font-weight: bold;
   color: rgb(24, 23, 23);
   align-content: center;
+  height: 50px;
 }
 
 header .brand-name {
@@ -98,6 +101,9 @@ div.sign-up::after {
   right: 0;
   position: absolute;
   z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
 }
 
 div.sign-up button {
@@ -106,7 +112,7 @@ div.sign-up button {
   color: #ffffff;
   background-color: #8a2be2;
   border: 0;
-   padding-left: 10px;
+  padding-left: 10px;
   padding-right: 10px;
   
 }
@@ -115,6 +121,7 @@ div.sign-up input {
   height: 30px;
   min-width: 300px;
   margin-bottom: 30px;
+  border: 0;
 }
 
 .landing-image {
@@ -134,6 +141,9 @@ div.sign-up input {
 
 .coding {
   float: right;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
 }
 
 .office-image {
@@ -142,33 +152,92 @@ div.sign-up input {
 
 #showcase {
   background-color: aquamarine;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
 }
+
 
 #input {
   background-color: white;
   border-bottom: lightgrey 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+
 }
 
 #box-office {
-  background-color: white;
+  background-color: white; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
 }
+
+
+
+.box-office {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+}
+
 
 /*footer*/
 
 
-footer{
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: white;
-}
 
 
 .containers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 1rem;
-  
+  grid-gap: 1rem;  
 }
 
+#footer-tems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:0 auto;
+  width: 50em;
+}
+
+#brand-logo{
+   display: flex;
+   justify-content: center;
+   flex-direction: space-around;
+}
+
+.footer{
+  width: 100vw;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+img.logos{
+  margin-right: 80px;
+  width: 15%;
+  height: 15%;
+}
+img.hng-logo{
+  margin-left: 100px;
+  width: 25%;
+  height: 25%;
+}
+
+div.icons{
+  margin-left: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: space-around;
+}
+
+img.icon{
+  margin-right: 80px;
+  width: 15%;
+  height: 15%;
+}
